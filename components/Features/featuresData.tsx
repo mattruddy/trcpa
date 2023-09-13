@@ -62,35 +62,5 @@ const featuresData: Feature[] = [
     paragraph:
       "If you're starting a new business or closing an old one, We'd love to help. By providing an array of services including business formation and payroll, we can help your entity start on the right foot. Reach us to set up an appointment.",
   },
-  {
-    id: 1,
-    icon: (
-      <Image
-        src="/images/services/auditing.webp"
-        alt="logo"
-        width={180}
-        height={40}
-        className="w-full rounded-md dark:hidden"
-      />
-    ),
-    title: "Audit and Assurance",
-    paragraph:
-      "Whether your bank is requiring a financial review or management is requesting a financial audit, we can help. We provide an array of assurance services specializing in startups, Homeowner associations, and ERISA. ",
-  },
-  // {
-  //   id: 1,
-  //   icon: (
-  //     <Image
-  //       src="/images/services/managment.webp"
-  //       alt="logo"
-  //       width={180}
-  //       height={40}
-  //       className="w-full rounded-md dark:hidden"
-  //     />
-  //   ),
-  //   title: "Management Advisory",
-  //   paragraph:
-  //     " If you're undergoing a merger or would like to restructure your business, we can help. Hire a part-time executive with our CFO services to maintain and oversee important functions and provide valuable insight on internal controls. ",
-  // },
 ];
 export default featuresData;
