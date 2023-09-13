@@ -5,29 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Dana Mabey",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Tom was very fast, efficient and affordable. I called Tom, sent him our info via email and he filed and sent our taxes in. I have been to big chains in the past and have been there for hours.. Tom is now my new accountant!! I highly recommend him!!!",
+    image: "/images/testimonials/dana.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Bill Mecca",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "I have used Tom Ruddy for my personal and business taxes for years. Always friendly, fast turnaround and accurate. What more can you ask for in a CPA?",
+    image: "/images/testimonials/bill.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Lauren Nespoli",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "Tom has been my personal accountant for years. He is quick, professional, and has made my somewhat complicated taxes a breeze for me! Taxes are no longer stressful. I would HIGHLY recommend him to anyone. A pleasure to work with.",
+    image: "/images/testimonials/lauren.png",
     star: 5,
   },
 ];

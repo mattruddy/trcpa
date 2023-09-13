@@ -16,10 +16,11 @@ const Hero = () => {
                   Certified Public Accountant in Island Heights, NJ
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                  We truly believe that each business should receive
+                  individualized attention. It is our passion to help your
+                  business grow and flourish because we understand that the
+                  relationship between an accountant and their client is truly
+                  symbiotic.
                 </p>
               </div>
             </div>
