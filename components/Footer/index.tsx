@@ -208,7 +208,10 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+              Template by UIdeck and{" "}
+              <a href="https://nextjstemplates.com" rel="nofollow noopener">
+                Next.js Templates
+              </a>
             </p>
           </div>
         </div>
@@ -286,7 +289,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute left-0 bottom-24 z-[-1]">
+        <div className="absolute bottom-24 left-0 z-[-1]">
           <svg
             width="79"
             height="94"
