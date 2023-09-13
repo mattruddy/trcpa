@@ -28,9 +28,9 @@ const featuresData: Feature[] = [
         className="w-full rounded-md dark:hidden"
       />
     ),
-    title: "Tax Attorney Services",
+    title: "Tax Representation",
     paragraph:
-      "Have a qualified CPA represent you to the IRS or New Jersey and solve your tax problem. Find out how our Tax Attorney services can assist you in resolving your tax matter. Contact us for more information. ",
+      "Have a qualified CPA represent you to the IRS or New Jersey and solve your tax problem. Find out how our Tax Representation services can assist you in resolving your tax matter. Contact us for more information. ",
   },
   {
     id: 1,
@@ -73,24 +73,24 @@ const featuresData: Feature[] = [
         className="w-full rounded-md dark:hidden"
       />
     ),
-    title: "Audit and Assurance Services",
+    title: "Audit and Assurance",
     paragraph:
       "Whether your bank is requiring a financial review or management is requesting a financial audit, we can help. We provide an array of assurance services specializing in startups, Homeowner associations, and ERISA. ",
   },
-  {
-    id: 1,
-    icon: (
-      <Image
-        src="/images/services/managment.webp"
-        alt="logo"
-        width={180}
-        height={40}
-        className="w-full rounded-md dark:hidden"
-      />
-    ),
-    title: "Management Advisory",
-    paragraph:
-      " If you're undergoing a merger or would like to restructure your business, we can help. Hire a part-time executive with our CFO services to maintain and oversee important functions and provide valuable insight on internal controls. ",
-  },
+  // {
+  //   id: 1,
+  //   icon: (
+  //     <Image
+  //       src="/images/services/managment.webp"
+  //       alt="logo"
+  //       width={180}
+  //       height={40}
+  //       className="w-full rounded-md dark:hidden"
+  //     />
+  //   ),
+  //   title: "Management Advisory",
+  //   paragraph:
+  //     " If you're undergoing a merger or would like to restructure your business, we can help. Hire a part-time executive with our CFO services to maintain and oversee important functions and provide valuable insight on internal controls. ",
+  // },
 ];
 export default featuresData;

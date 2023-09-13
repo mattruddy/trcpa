@@ -25,7 +25,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
         data-wow-delay=".1s"
       >
         <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div>
-        <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
+        <p className="mb-8 h-60 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
           “{content}
         </p>
         <div className="flex items-center">

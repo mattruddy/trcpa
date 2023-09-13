@@ -14,7 +14,7 @@ const Contact = () => {
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Tell us About Yourself
               </h2>
-              <form>
+              <form action="mailto:trcpa63@aol.com?subject=Tax Inquiry">
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
