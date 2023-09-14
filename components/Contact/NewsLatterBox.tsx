@@ -145,7 +145,7 @@ const NewsLatterBox = () => {
       <div>
         <p className="mb-2 font-bold">Tom Ruddy, CPA</p>
         <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-          (732) 244-5163
+          (732) 779-1590
           <br />
           trcpa63@aol.com
         </p>

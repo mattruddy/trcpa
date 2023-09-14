@@ -28,7 +28,22 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <div className="flex items-center">
+                <div className="flex">
+                  <p className="text-base !leading-relaxed text-body-color md:text-lg">
+                    14 Central Ave, Island Heights, NJ 08732
+                  </p>
+                </div>
+                <div className="flex">
+                  <p className="text-base !leading-relaxed text-body-color md:text-lg">
+                    (732) 779-1590
+                  </p>
+                </div>
+                <div className="flex">
+                  <p className="text-base !leading-relaxed text-body-color md:text-lg">
+                    trcpa63@aol.com
+                  </p>
+                </div>
+                <div className="mt-4 flex items-center">
                   <a
                     href="https://www.linkedin.com/company/trcpa/about/"
                     aria-label="social-link"
