@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   useEffect(() => {
-    pageview(new URL("home"));
+    pageview("home");
   }, []);
 
   return (
