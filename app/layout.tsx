@@ -1,5 +1,7 @@
 "use client";
 
+import { Providers } from "./providers";
+import { GA_TRACKING_ID, pageview } from "@/utils/ga";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -11,17 +13,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const router = useRouter();
-  useEffect(() => {
-    const handleRouteChange = (url: URL) => {
-      pageview(url);
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
-
   return (
     <html suppressHydrationWarning lang="en">
       {/*
@@ -57,8 +48,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-import { Providers } from "./providers";
-import { GA_TRACKING_ID, pageview } from "@/utils/ga";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
