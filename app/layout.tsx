@@ -11,12 +11,39 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url: URL) => {
+      pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <html suppressHydrationWarning lang="en">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       <head />
 
       <body className="dark:bg-black">
@@ -32,3 +59,6 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
+import { GA_TRACKING_ID, pageview } from "@/utils/ga";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
